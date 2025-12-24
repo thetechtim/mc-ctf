@@ -1,1 +1,0 @@
-summon armor_stand ~ ~ ~ {Team:"test2",NoGravity:1b,Small:1b,Invisible:1b,PersistenceRequired:1b,Tags:["redflag","flag"],ArmorItems:[{},{},{},{id:"minecraft:paper",Count:1b,tag:{CustomModelData:2}}]}
