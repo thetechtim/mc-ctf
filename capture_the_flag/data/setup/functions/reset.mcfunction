@@ -6,4 +6,6 @@ scoreboard objectives remove Blue_Team_Kills
 team remove redTeam
 team remove blueTeam
 
-kill @e[type=armor_stand,tag=flag]
+kill @e[tag=flag]
+
+effect clear @a slowness
