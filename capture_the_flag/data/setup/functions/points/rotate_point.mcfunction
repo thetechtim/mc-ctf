@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=point] at @s run tp @s ~ ~ ~ ~-3 ~

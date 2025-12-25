@@ -1,0 +1,1 @@
+execute positioned ~ ~ ~ run summon armor_stand ~ ~ ~ {NoGravity:1b,Invisible:0b,Tags:["flag","point"]}
