@@ -1,0 +1,1 @@
+execute as @a[team=spectator] unless entity @s[gamemode=spectator] run gamemode spectator
