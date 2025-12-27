@@ -3,6 +3,8 @@
 function setup:bfl/update_blueflag
 function setup:rfl/update_redflag
 
+function setup:trigger/effects
+
 function setup:bfl/del_blueflag_offhand
 function setup:rfl/del_redflag_offhand
 
