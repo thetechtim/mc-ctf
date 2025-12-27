@@ -1,5 +1,0 @@
-execute as @e[type=armor_stand,tag=pointblue] at @s run execute if entity @a[team=blueTeam,distance=..4,nbt={Inventory:[{Slot:-106b,id:"minecraft:paper",tag:{display:{Name:'{"text":"Blueflag","color":"blue","bold":true}'}}}]}] run scoreboard players add * blueTeam 1
-execute as @e[type=armor_stand,tag=pointblue] at @s run execute if entity @a[distance=..4,team=blueTeam] run function setup:bfl/del_blueflag_offhand
-# execute as @e[type=armor_stand,tag=point] at @s run execute if entity @a[distance=..4,team=redTeam] run function capture_the_flag:load
-execute as @e[type=armor_stand,tag=pointred] at @s run execute if entity @a[team=redTeam,distance=..4,nbt={Inventory:[{Slot:-106b,id:"minecraft:paper",tag:{display:{Name:'{"text":"Blueflag","color":"blue","bold":true}'}}}]}] run scoreboard players add * blueTeam 1
-execute as @e[type=armor_stand,tag=pointred] at @s run execute if entity @a[distance=..4,team=redTeam] run function setup:rfl/del_redflag_offhand
